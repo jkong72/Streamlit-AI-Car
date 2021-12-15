@@ -5,6 +5,7 @@ import os
 import pickle
 
 from eda_app import run_eda_app
+from ml_app import run_ml_app
 
 
 def main():
@@ -25,7 +26,8 @@ def main():
                     
     # mene ML
     if menu_choice == menu[2]:
-        pass
+        run_ml_app()
+
 
 
 if __name__ == '__main__':
